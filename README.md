@@ -8,5 +8,5 @@ Perceba que para cada grau (que é um múltiplo de 3), temos uma cor associada
 
 
 Ou seja, vamos supor que se eu for com o mouse até a célula 0,0 da tela, a célula será preenchida(fill) com 
-a cor red e as outras células ao redor dessa célula com a outras cores do arco-íris conforme a distância, pois 
+a cor red e as outras células ao redor dessa célula com a outras cores do arco-íris conforme a distância.
 ![image](https://github.com/alynek/rainbowClick/assets/79387967/0a0f3a6c-d7f8-4cb0-b778-11c9fa24af08)
