@@ -5,6 +5,7 @@ function setup() {
 
 function draw(){
     background(0)
+    translate(2, 2)
 
     for(let x = 0; x < 30; x++){
         for(let y = 0; y < 30; y++){
@@ -13,7 +14,7 @@ function draw(){
             let distanceY = 30 * y
             let distanceMouse = dist(distanceX, distanceY, mouseX, mouseY)
             
-            fill(distanceMouse)
+            fill(distanceMouse * 0.7, 255, 255)
             rect(distanceX, distanceY, 25, 25)
         }
     }
